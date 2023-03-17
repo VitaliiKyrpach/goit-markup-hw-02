@@ -15,10 +15,10 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-background);
 }
-.nodots {
+.list {
   list-style-type: none;
 }
-.noline {
+.link {
   text-decoration: none;
 }
 .hidden {
@@ -40,7 +40,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -66,16 +66,18 @@ body {
 .nav-link:focus {
   color: var(--logo-text-color);
 }
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--logo-text-color);
+  color: var(--button-active);
 }
 /* -----------------hero----------------- */
 .hero {
@@ -90,6 +92,7 @@ body {
   letter-spacing: 0.02em;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   color: var(--third-text-color);
   background-color: var(--logo-text-color);
   font-weight: 500;
@@ -99,6 +102,7 @@ body {
   cursor: pointer;
 }
 .button-secondary {
+  font-family: "Roboto", sans-serif;
   color: var(--logo-text-color);
   background-color: var(--footer-text-color);
   font-weight: 500;
