@@ -64,7 +64,7 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--logo-text-color);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -104,7 +104,7 @@ body {
 .button-secondary {
   font-family: "Roboto", sans-serif;
   color: var(--logo-text-color);
-  background-color: var(--footer-text-color);
+  background-color: var(--secondary-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
