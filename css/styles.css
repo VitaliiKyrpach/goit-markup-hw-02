@@ -44,14 +44,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-head:hover,
-.logo-head:focus,
-.logo-btm:hover,
-.logo-btm:focus,
-.logo:hover,
-.logo:focus {
-  color: var(--button-active);
-}
 .logo-head {
   color: var(--secondary-text-color);
 }
